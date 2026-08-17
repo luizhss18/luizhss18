@@ -24,8 +24,7 @@
 ## ⌨️ Digitação Automática:
 
 <p align="center">
-    src="https://senac-mg-edu.my.canva.site/apresenta-o-github"
-    alt="[Typing SVG](https://senac-mg-edu.my.canva.site/apresenta-o-github)"
+(https://senac-mg-edu.my.canva.site/apresenta-o-github)"
 </p>
 
 ---
