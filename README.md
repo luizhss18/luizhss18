@@ -26,7 +26,7 @@
 <p align="center">
   <img
     src="https://senac-mg-edu.my.canva.site/apresenta-o-github"
-    alt="Typing SVG"
+    alt="[Typing SVG](https://senac-mg-edu.my.canva.site/apresenta-o-github)"
   />
 </p>
 
