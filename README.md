@@ -18,7 +18,7 @@
   <br>
   🌐 Portfólio:
 </p>
-
+<p> Em aprendizado</p>
 ---
 
 ## ⌨️ Digitação Automática:
