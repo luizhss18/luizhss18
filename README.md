@@ -34,7 +34,7 @@
 <p align="center">
   <img src="https://skillicons.dev/icons?i=js,nodejs,mysql,sqlite,html,css,github" />
 </p>
-<p> Em aprendizado!</p>
+
 ---
 
 ## 📚 Componentes Curriculares do Curso SENAI
