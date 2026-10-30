@@ -36,7 +36,7 @@
 
 ### 01 / Quem está por trás do código
 
-Sou **Luiz Henrique Silva Souza**, ou **Luiz Souza** por aqui. Estudo **Técnico em Informática na Faculdade Senac Contagem** e **Programador Web no SenacTEC**, unindo desenvolvimento, suporte técnico e infraestrutura.
+Sou**Luiz Souza**, estudo **Técnico em Informática na Faculdade Senac Contagem** e **Programador Web no SenacTEC**, unindo desenvolvimento, suporte técnico e infraestrutura.
 
 Estou aprendendo **desenvolvimento de algoritmos**, **aplicações back-end para web** e **introdução a banco de dados**. Meu objetivo é crescer em **Tecnologia da Informação, Suporte Técnico e Desenvolvimento**, aprendendo com desafios reais.
 
