@@ -51,7 +51,7 @@ Gosto de tirar ideias do papel e aprender criando interfaces, explorando ferrame
 
 ### 02 / Meu mapa de estudos
 
-Conhecimentos, ferramentas e assuntos que fazem parte da minha formação. Os estudos estão identificados como aprendizado, sem transformar uma etapa em andamento em domínio profissional.
+Conhecimentos, ferramentas e assuntos que fazem parte da minha formação. Cada projeto conecta o que estou aprendendo à prática.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/luizhss18/luizhss18/main/assets/skills-dark.svg?v=3">
