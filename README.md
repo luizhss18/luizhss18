@@ -128,20 +128,6 @@ Meu calendário de contribuições ganhou outro universo. **Os blocos vêm da mi
 
 <sub>Cartuchos em modo de demonstração: animações em SVG. Abra as seções para mudar a visualização.</sub>
 
-<details>
-<summary><b>🔓 Área secreta / acesso liberado para curiosos</b></summary>
-
-
-
-`achievement unlocked: curiosidade`
-
-Você encontrou o laboratório. Por aqui, a próxima missão é transformar o que estou estudando em projetos cada vez mais completos.
-
-**Missões em andamento:** aprofundar JavaScript, conectar aplicações a bancos de dados e entender melhor as redes que sustentam a web.
-
-</details>
-
-
 ### 05 / Vamos conectar ideias
 
 <p align="center">
