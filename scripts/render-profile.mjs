@@ -1,6 +1,7 @@
 import {readFile, writeFile, mkdir} from 'node:fs/promises';
 import {fileURLToPath} from 'node:url';
 import {dirname, resolve} from 'node:path';
+import {renderControls} from './render-brand.mjs';
 
 // Zero dependencies. Read the PUBLIC calendar only; never query private repositories.
 const root = resolve(dirname(fileURLToPath(import.meta.url)), '..');
@@ -40,8 +41,8 @@ function header(p) {
   b+=text(40,43,'LUIZ OS',14,'mono accent')+text(1000,43,'PORTFOLIO / V.01',11,'mono muted','text-anchor="end"');
   b+=`<path d="M40 64H1000" stroke="${p.line}"/>`;
   b+=text(40,108,'OLÁ, EU SOU',12,'mono muted','letter-spacing="3"')+text(38,173,'Luiz Souza.',62,'','font-weight="750"');
-  b+=text(42,212,'Transformando curiosidade em código.',21)+text(42,245,'Técnico em Informática · SENAC-MG',14,'muted');
-  b+=pill(40,281,126,'WEB DEV',p.cyan,p)+pill(178,281,122,'DATABASES',p.violet,p)+pill(312,281,116,'NETWORKS',p.cyan,p);
+  b+=text(42,212,'Transformando curiosidade em código.',21)+text(42,245,'Informática & Programação Web · Senac',14,'muted');
+  b+=pill(40,281,126,'WEB DEV',p.cyan,p)+pill(178,281,122,'SUPORTE TI',p.violet,p)+pill(312,281,116,'INFRA',p.cyan,p);
   b+=`<g class="motion" transform="translate(0 0)"><path d="M768 96 892 166 768 238 644 166Z" fill="${p.panel}" stroke="url(#glow)" stroke-width="2"/><path d="M644 166v40l124 72 124-72v-40M768 238v40" fill="none" stroke="${p.line}" stroke-width="2"/>${text(768,184,'&lt;/&gt;',40,'mono accent','text-anchor="middle"')}</g>`;
   // Literal angle brackets are escaped by text().
   b=b.replace('&amp;lt;/&amp;gt;','&lt;/&gt;');
@@ -53,24 +54,32 @@ function terminal(p) {
   let b=`<rect x="18" y="18" width="1004" height="36" rx="10" fill="${p.panel}"/>`;
   ['#f08091','#ffd668','#55cfb7'].forEach((c,i)=>b+=`<circle cx="${37+i*20}" cy="36" r="4" fill="${c}"/>`);
   b+=text(520,41,'luiz@devlab: ~/about',12,'mono muted','text-anchor="middle"');
-  const lines=[['$ whoami','accent'],['Luiz Souza · estudante · criador de projetos',''],['$ cat current-mission.txt','accent'],['Aprender desenvolvimento full stack, uma entrega por vez.',''],['$ ls ./learning','accent'],['web-development/   databases/   computer-networks/','']];
+  const lines=[['$ whoami','accent'],['Luiz Souza · estudante de Informática e Programação Web',''],['$ cat current-mission.txt','accent'],['Estudar algoritmos, back-end web e banco de dados.',''],['$ ls ./toolbox','accent'],['VS Code/  MySQL Workbench/  Canva/  Pacote Office/','']];
   lines.forEach(([s,c],i)=>b+=`<g class="line${i}">${text(36,84+i*29,s,15,'mono '+c)}</g>`);
   b+=text(36,270,'$ git commit -m "mais uma ideia saiu do papel"',14,'mono muted')+`<rect class="blink" x="468" y="257" width="8" height="17" fill="${p.cyan}"/>`;
   b+=`<style>${lines.map((_,i)=>`.line${i}{animation:reveal${i} 12s infinite}@keyframes reveal${i}{0%,${i*6}%{opacity:${i===0?1:0}}${i*6+4}%,100%{opacity:1}}`).join('')}</style>`;
   return svg(1040,300,'Terminal: sobre Luiz e sua missão de aprendizado',b,p);
 }
 function skills(p) {
-  let b=text(30,36,'SKILL TREE',12,'mono accent')+text(1010,36,'EM CONSTRUÇÃO CONTÍNUA',11,'mono muted','text-anchor="end"');
-  const branches=[{x:30,w:310,title:'01 / INTERFACES',sub:'O que aparece na tela',items:['HTML5','CSS3','JavaScript'],color:p.cyan},{x:365,w:310,title:'02 / DADOS & LÓGICA',sub:'O que conecta a experiência',items:['Node.js','MySQL','SQLite'],color:p.violet},{x:700,w:310,title:'03 / AMBIENTE',sub:'Onde tudo funciona',items:['GitHub','Redes','Windows'],color:p.cyan}];
-  b+=`<path d="M185 66H855M185 66V86M520 54V86M855 66V86" stroke="${p.line}" fill="none"/><circle cx="520" cy="54" r="4" fill="${p.cyan}" class="blink"/>`;
-  for(const q of branches){b+=`<rect x="${q.x}" y="86" width="${q.w}" height="160" rx="14" fill="${p.panel}" stroke="${p.line}"/>${text(q.x+20,116,q.title,13,'mono',`style="fill:${q.color}"`)}${text(q.x+20,140,q.sub,13,'muted')}`;q.items.forEach((s,i)=>b+=`<circle cx="${q.x+24}" cy="${170+i*25}" r="3" fill="${q.color}"/>${text(q.x+38,175+i*25,s,14)}`);}
-  return svg(1040,270,'Mapa de estudos: HTML, CSS, JavaScript, Node.js, MySQL, SQLite, GitHub, redes e Windows',b,p);
+  let b=text(30,36,'SKILL TREE',12,'mono accent')+text(1010,36,'APRENDER · CRIAR · RESOLVER',11,'mono muted','text-anchor="end"');
+  const branches=[
+    ['01 / FRONT-END','Construindo interfaces',['HTML · CSS','Responsividade','Tecnologias front-end']],
+    ['02 / EM APRENDIZADO','Próximas conexões',['Desenvolvimento de algoritmos','Back-end para web','Introdução a banco de dados']],
+    ['03 / SOFTWARES','Minha caixa de ferramentas',['Visual Studio Code','MySQL Workbench','Canva · Pacote Office']],
+    ['04 / SUPORTE','Resolvendo no dia a dia',['Montagem e manutenção','Instalação de hardware e software','Solução de problemas']],
+    ['05 / INFRAESTRUTURA','Conectando ambientes',['Windows','Linux (servidores)','Cabeamento e redes locais']],
+    ['06 / CONEXÕES HUMANAS','Trabalhando em conjunto',['Organização e proatividade','Trabalho em equipe','Inglês básico · A2']]
+  ];
+  branches.forEach(([title,sub,items],i)=>{const x=30+(i%3)*335,y=62+Math.floor(i/3)*180,color=i%2?p.violet:p.cyan;
+    b+=`<rect x="${x}" y="${y}" width="310" height="160" rx="14" fill="${p.panel}" stroke="${p.line}"/>${text(x+20,y+30,title,12,'mono',`style="fill:${color}"`)}${text(x+20,y+53,sub,12,'muted')}`;
+    items.forEach((s,j)=>b+=`<circle cx="${x+24}" cy="${y+83+j*25}" r="3" fill="${color}"/>${text(x+38,y+88+j*25,s,13)}`);
+  });
+  return svg(1040,426,'HTML, CSS, responsividade; estudos de algoritmos, back-end e banco de dados; VS Code, MySQL Workbench, Canva, Office; suporte, Windows, Linux e redes locais.',b,p);
 }
 const projects=[
   {id:'brasa',name:'Sabor Brasa',tag:'RESTAURANT / WEB',desc:'Uma experiência web para restaurante.',tech:'HTML · CSS',icon:'flame',repo:'SABOR-BRASA-FRONT'},
-  {id:'cinema',name:'Catálogo de Cinema',tag:'MOVIES / CATALOG',desc:'Filmes organizados em uma interface web.',tech:'HTML · CSS',icon:'film',repo:'CATALOGO_CINEMA_HTML_CSS'},
   {id:'basquete',name:'Blog de Basquete',tag:'SPORTS / EDITORIAL',desc:'Conteúdo esportivo em formato de blog.',tech:'HTML · CSS',icon:'ball',repo:'WEB-BLOG-BASQUETE'},
-  {id:'cadastro',name:'Sistema de Cadastro',tag:'FORMS / INTERFACE',desc:'Um projeto web para praticar cadastros.',tech:'HTML · CSS',icon:'form',repo:'SISTEMA-DE-CADASTRO'}
+  {id:'retro',name:'Vintage Store',tag:'RETRO / SHOWCASE',desc:'Uma vitrine web de produtos com tema retrô.',tech:'HTML · CSS',icon:'vinyl',repo:'SITE-SIMPLES-EXPOSITIVO-venda-de-produtos-retr-'}
 ];
 function card(q,p,i) {
   let b=text(24,33,`0${i+1} / ${q.tag}`,10,'mono muted');
@@ -79,6 +88,7 @@ function card(q,p,i) {
   if(q.icon==='film')b+=`<rect x="421" y="53" width="34" height="26" rx="4" fill="none" stroke="${p.violet}" stroke-width="2"/><path d="m434 58 11 8-11 8Z" fill="${p.violet}"/>`;
   if(q.icon==='ball')b+=`<circle cx="438" cy="67" r="18" fill="none" stroke="${p.cyan}" stroke-width="2"/><path d="M420 67h36M438 49v36M426 53q23 14 0 28M450 53q-23 14 0 28" fill="none" stroke="${p.cyan}"/>`;
   if(q.icon==='form')b+=`<rect x="424" y="48" width="28" height="37" rx="4" fill="none" stroke="${p.violet}" stroke-width="2"/><path d="M430 58h16M430 66h16M430 74h10" stroke="${p.violet}" stroke-width="2"/>`;
+  if(q.icon==='vinyl')b+=`<circle cx="438" cy="67" r="18" fill="none" stroke="${p.violet}" stroke-width="2"/><circle cx="438" cy="67" r="7" fill="none" stroke="${p.violet}" stroke-width="2"/><circle cx="438" cy="67" r="2" fill="${p.violet}"/><path d="M425 65a13 13 0 0 1 11-11M440 80a13 13 0 0 0 11-11" stroke="${p.violet}" stroke-linecap="round" fill="none"/>`;
   b+=text(24,87,q.name,25,'','font-weight="700"')+text(24,122,q.desc,13,'muted')+`<path d="M24 148H476" stroke="${p.line}"/>`+text(24,177,q.tech,12,'mono accent')+text(476,177,'ABRIR REPOSITÓRIO ↗',10,'mono muted','text-anchor="end"');
   return svg(500,200,q.name+': '+q.desc,b,p);
 }
@@ -159,6 +169,7 @@ async function main(){
     projects.forEach((q,i)=>files['project-'+q.id]=card(q,p,i));
     for(const [name,content] of Object.entries(files))await writeFile(resolve(out,`${name}-${theme}.svg`),content);
   }
-  console.log(`Rendered 26 SVG assets from ${data.days.length} public days; total ${metrics(data.days).total}.`);
+  for(const [name,content] of Object.entries(renderControls()))await writeFile(resolve(out,name),content);
+  console.log(`Rendered profile, project and control SVGs from ${data.days.length} public days; total ${metrics(data.days).total}.`);
 }
 if(process.argv[1] && resolve(process.argv[1])===fileURLToPath(import.meta.url))await main();

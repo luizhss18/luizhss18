@@ -1,70 +1,87 @@
 <!-- LUIZ OS · assets originais em SVG · temas claro/escuro · sem rastreadores -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/luizhss18/luizhss18/main/assets/header-dark.svg?v=2">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/luizhss18/luizhss18/main/assets/header-light.svg?v=2">
-  <img src="https://raw.githubusercontent.com/luizhss18/luizhss18/main/assets/header-dark.svg?v=2" width="100%" alt="Luiz OS — Luiz Souza. Transformando curiosidade em código. Técnico em Informática no SENAC-MG.">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/luizhss18/luizhss18/main/assets/header-dark.svg?v=3">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/luizhss18/luizhss18/main/assets/header-light.svg?v=3">
+  <img src="https://raw.githubusercontent.com/luizhss18/luizhss18/main/assets/header-dark.svg?v=3" width="100%" alt="Luiz OS — Luiz Souza. Transformando curiosidade em código. Técnico em Informática no SENAC-MG.">
 </picture>
 
 <p align="center">
-  <a href="#01--quem-est%C3%A1-por-tr%C3%A1s-do-c%C3%B3digo">SOBRE</a> &nbsp; / &nbsp;
-  <a href="#02--meu-mapa-de-estudos">SKILL TREE</a> &nbsp; / &nbsp;
-  <a href="#03--ideias-que-viraram-projetos">PROJETOS</a> &nbsp; / &nbsp;
-  <a href="#04--dev-arcade">DEV ARCADE</a> &nbsp; / &nbsp;
-  <a href="#05--vamos-conectar-ideias">CONTATO</a>
+  <a href="#01--quem-est%C3%A1-por-tr%C3%A1s-do-c%C3%B3digo"><picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/luizhss18/luizhss18/main/assets/nav-about-dark.svg?v=3">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/luizhss18/luizhss18/main/assets/nav-about-light.svg?v=3">
+  <img src="https://raw.githubusercontent.com/luizhss18/luizhss18/main/assets/nav-about-dark.svg?v=3" width="160" alt="Sobre: quem está por trás do código">
+</picture></a>
+  <a href="#02--meu-mapa-de-estudos"><picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/luizhss18/luizhss18/main/assets/nav-skills-dark.svg?v=3">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/luizhss18/luizhss18/main/assets/nav-skills-light.svg?v=3">
+  <img src="https://raw.githubusercontent.com/luizhss18/luizhss18/main/assets/nav-skills-dark.svg?v=3" width="160" alt="Skill Tree: estudos, tecnologias e softwares">
+</picture></a>
+  <a href="#03--ideias-que-viraram-projetos"><picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/luizhss18/luizhss18/main/assets/nav-projects-dark.svg?v=3">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/luizhss18/luizhss18/main/assets/nav-projects-light.svg?v=3">
+  <img src="https://raw.githubusercontent.com/luizhss18/luizhss18/main/assets/nav-projects-dark.svg?v=3" width="160" alt="Projetos: conhecer meus repositórios públicos">
+</picture></a>
+  <a href="#04--dev-arcade"><picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/luizhss18/luizhss18/main/assets/nav-arcade-dark.svg?v=3">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/luizhss18/luizhss18/main/assets/nav-arcade-light.svg?v=3">
+  <img src="https://raw.githubusercontent.com/luizhss18/luizhss18/main/assets/nav-arcade-dark.svg?v=3" width="160" alt="Dev Arcade: explorar as contribuições animadas">
+</picture></a>
+  <a href="#05--vamos-conectar-ideias"><picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/luizhss18/luizhss18/main/assets/nav-contact-dark.svg?v=3">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/luizhss18/luizhss18/main/assets/nav-contact-light.svg?v=3">
+  <img src="https://raw.githubusercontent.com/luizhss18/luizhss18/main/assets/nav-contact-dark.svg?v=3" width="160" alt="Contato: vamos conectar ideias">
+</picture></a>
 </p>
 
 
 ### 01 / Quem está por trás do código
 
-Sou **Luiz Souza**, estudante de **Técnico em Informática no SENAC-MG**, em Minas Gerais, Brasil. Estou explorando desenvolvimento web, bancos de dados e redes de computadores, com foco em construir uma base para o **desenvolvimento full stack**.
+Sou **Luiz Henrique Silva Souza**, ou **Luiz Souza** por aqui. Estudo **Técnico em Informática na Faculdade Senac Contagem** e **Programador Web no SenacTEC**, unindo desenvolvimento, suporte técnico e infraestrutura.
 
-Gosto de tirar ideias do papel e aprender criando: de interfaces para restaurantes a catálogos de cinema, blogs e sistemas web.
+Estou aprendendo **desenvolvimento de algoritmos**, **aplicações back-end para web** e **introdução a banco de dados**. Meu objetivo é crescer em **Tecnologia da Informação, Suporte Técnico e Desenvolvimento**, aprendendo com desafios reais.
+
+Gosto de tirar ideias do papel e aprender criando interfaces, explorando ferramentas e resolvendo problemas. Minha formação em Informática segue até **2027**; a conclusão de Programador Web está prevista para **dezembro de 2026**.
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/luizhss18/luizhss18/main/assets/terminal-dark.svg?v=2">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/luizhss18/luizhss18/main/assets/terminal-light.svg?v=2">
-  <img src="https://raw.githubusercontent.com/luizhss18/luizhss18/main/assets/terminal-dark.svg?v=2" width="100%" alt="Terminal animado: minha missão é aprender desenvolvimento full stack, uma entrega por vez.">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/luizhss18/luizhss18/main/assets/terminal-dark.svg?v=3">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/luizhss18/luizhss18/main/assets/terminal-light.svg?v=3">
+  <img src="https://raw.githubusercontent.com/luizhss18/luizhss18/main/assets/terminal-dark.svg?v=3" width="100%" alt="Terminal animado: estudante de Informática e Programação Web, aprendendo algoritmos, back-end e banco de dados.">
 </picture>
 
 
 ### 02 / Meu mapa de estudos
 
-Tecnologias que uso e assuntos que estou aprendendo. Cada projeto é uma oportunidade de conectar mais uma parte desse mapa.
+Conhecimentos, ferramentas e assuntos que fazem parte da minha formação. Os estudos estão identificados como aprendizado, sem transformar uma etapa em andamento em domínio profissional.
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/luizhss18/luizhss18/main/assets/skills-dark.svg?v=2">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/luizhss18/luizhss18/main/assets/skills-light.svg?v=2">
-  <img src="https://raw.githubusercontent.com/luizhss18/luizhss18/main/assets/skills-dark.svg?v=2" width="100%" alt="Interfaces: HTML, CSS e JavaScript. Dados e lógica: Node.js, MySQL e SQLite. Ambiente: GitHub, redes e Windows.">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/luizhss18/luizhss18/main/assets/skills-dark.svg?v=3">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/luizhss18/luizhss18/main/assets/skills-light.svg?v=3">
+  <img src="https://raw.githubusercontent.com/luizhss18/luizhss18/main/assets/skills-dark.svg?v=3" width="100%" alt="Front-end: HTML, CSS e responsividade. Aprendendo algoritmos, back-end e banco de dados. Softwares: Visual Studio Code, MySQL Workbench, Canva e Office. Suporte, Windows, Linux e redes locais.">
 </picture>
 
 
 ### 03 / Ideias que viraram projetos
 
-Escolha um card para abrir o código e acompanhar a evolução.
+Uma seleção dos meus projetos que estão **públicos**. Escolha um card para explorar o código e acompanhar a evolução.
 
 <table>
 <tr>
 <td width="50%"><a href="https://github.com/luizhss18/SABOR-BRASA-FRONT"><picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/luizhss18/luizhss18/main/assets/project-brasa-dark.svg?v=2">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/luizhss18/luizhss18/main/assets/project-brasa-light.svg?v=2">
-  <img src="https://raw.githubusercontent.com/luizhss18/luizhss18/main/assets/project-brasa-dark.svg?v=2" width="100%" alt="Abrir Sabor Brasa — experiência web para restaurante, HTML e CSS.">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/luizhss18/luizhss18/main/assets/project-brasa-dark.svg?v=3">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/luizhss18/luizhss18/main/assets/project-brasa-light.svg?v=3">
+  <img src="https://raw.githubusercontent.com/luizhss18/luizhss18/main/assets/project-brasa-dark.svg?v=3" width="100%" alt="Abrir Sabor Brasa — experiência web para restaurante, HTML e CSS.">
 </picture></a></td>
-<td width="50%"><a href="https://github.com/luizhss18/CATALOGO_CINEMA_HTML_CSS"><picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/luizhss18/luizhss18/main/assets/project-cinema-dark.svg?v=2">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/luizhss18/luizhss18/main/assets/project-cinema-light.svg?v=2">
-  <img src="https://raw.githubusercontent.com/luizhss18/luizhss18/main/assets/project-cinema-dark.svg?v=2" width="100%" alt="Abrir Catálogo de Cinema — interface de filmes em HTML e CSS.">
+<td width="50%"><a href="https://github.com/luizhss18/WEB-BLOG-BASQUETE"><picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/luizhss18/luizhss18/main/assets/project-basquete-dark.svg?v=3">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/luizhss18/luizhss18/main/assets/project-basquete-light.svg?v=3">
+  <img src="https://raw.githubusercontent.com/luizhss18/luizhss18/main/assets/project-basquete-dark.svg?v=3" width="100%" alt="Abrir Blog de Basquete — conteúdo esportivo em formato de blog.">
 </picture></a></td>
 </tr>
 <tr>
-<td width="50%"><a href="https://github.com/luizhss18/WEB-BLOG-BASQUETE"><picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/luizhss18/luizhss18/main/assets/project-basquete-dark.svg?v=2">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/luizhss18/luizhss18/main/assets/project-basquete-light.svg?v=2">
-  <img src="https://raw.githubusercontent.com/luizhss18/luizhss18/main/assets/project-basquete-dark.svg?v=2" width="100%" alt="Abrir Blog de Basquete — conteúdo esportivo em formato de blog.">
-</picture></a></td>
-<td width="50%"><a href="https://github.com/luizhss18/SISTEMA-DE-CADASTRO"><picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/luizhss18/luizhss18/main/assets/project-cadastro-dark.svg?v=2">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/luizhss18/luizhss18/main/assets/project-cadastro-light.svg?v=2">
-  <img src="https://raw.githubusercontent.com/luizhss18/luizhss18/main/assets/project-cadastro-dark.svg?v=2" width="100%" alt="Abrir Sistema de Cadastro — projeto de formulário web.">
+<td colspan="2" align="center"><a href="https://github.com/luizhss18/SITE-SIMPLES-EXPOSITIVO-venda-de-produtos-retr-"><picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/luizhss18/luizhss18/main/assets/project-retro-dark.svg?v=3">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/luizhss18/luizhss18/main/assets/project-retro-light.svg?v=3">
+  <img src="https://raw.githubusercontent.com/luizhss18/luizhss18/main/assets/project-retro-dark.svg?v=3" width="49%" alt="Abrir Vintage Store — vitrine de produtos com tema retrô.">
 </picture></a></td>
 </tr>
 </table>
@@ -131,11 +148,21 @@ Meu calendário de contribuições ganhou outro universo. **Os blocos vêm da mi
 ### 05 / Vamos conectar ideias
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/luiz-souza-83b970386/"><b>LinkedIn ↗</b></a>
-  &nbsp; · &nbsp;
-  <a href="https://senac-mg-edu.my.canva.site/apresenta-o-github"><b>Apresentação ↗</b></a>
-  &nbsp; · &nbsp;
-  <a href="https://github.com/luizhss18?tab=repositories"><b>Meus projetos ↗</b></a>
+  <a href="https://www.linkedin.com/in/luiz-souza-83b970386/"><picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/luizhss18/luizhss18/main/assets/contact-linkedin-dark.svg?v=3">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/luizhss18/luizhss18/main/assets/contact-linkedin-light.svg?v=3">
+  <img src="https://raw.githubusercontent.com/luizhss18/luizhss18/main/assets/contact-linkedin-dark.svg?v=3" width="210" alt="LinkedIn: conexões e carreira">
+</picture></a>
+  <a href="https://luiz-souza-devlab.superbasil19.chatgpt.site"><picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/luizhss18/luizhss18/main/assets/contact-site-dark.svg?v=3">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/luizhss18/luizhss18/main/assets/contact-site-light.svg?v=3">
+  <img src="https://raw.githubusercontent.com/luizhss18/luizhss18/main/assets/contact-site-dark.svg?v=3" width="210" alt="Apresentação: conhecer meu portfólio interativo">
+</picture></a>
+  <a href="https://github.com/luizhss18?tab=repositories"><picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/luizhss18/luizhss18/main/assets/contact-github-dark.svg?v=3">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/luizhss18/luizhss18/main/assets/contact-github-light.svg?v=3">
+  <img src="https://raw.githubusercontent.com/luizhss18/luizhss18/main/assets/contact-github-dark.svg?v=3" width="210" alt="GitHub: explorar meus projetos públicos">
+</picture></a>
 </p>
 
 <picture>
