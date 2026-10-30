@@ -6,14 +6,13 @@
 </picture>
 
 <p align="center">
-  <a href="#sobre">SOBRE</a> &nbsp; / &nbsp;
-  <a href="#tecnologias">SKILL TREE</a> &nbsp; / &nbsp;
-  <a href="#projetos">PROJETOS</a> &nbsp; / &nbsp;
-  <a href="#arcade">DEV ARCADE</a> &nbsp; / &nbsp;
-  <a href="#contato">CONTATO</a>
+  <a href="#01--quem-est%C3%A1-por-tr%C3%A1s-do-c%C3%B3digo">SOBRE</a> &nbsp; / &nbsp;
+  <a href="#02--meu-mapa-de-estudos">SKILL TREE</a> &nbsp; / &nbsp;
+  <a href="#03--ideias-que-viraram-projetos">PROJETOS</a> &nbsp; / &nbsp;
+  <a href="#04--dev-arcade">DEV ARCADE</a> &nbsp; / &nbsp;
+  <a href="#05--vamos-conectar-ideias">CONTATO</a>
 </p>
 
-<a id="sobre"></a>
 
 ### 01 / Quem está por trás do código
 
@@ -27,7 +26,6 @@ Gosto de tirar ideias do papel e aprender criando: de interfaces para restaurant
   <img src="https://raw.githubusercontent.com/luizhss18/luizhss18/main/assets/terminal-dark.svg" width="100%" alt="Terminal animado: minha missão é aprender desenvolvimento full stack, uma entrega por vez.">
 </picture>
 
-<a id="tecnologias"></a>
 
 ### 02 / Meu mapa de estudos
 
@@ -39,7 +37,6 @@ Tecnologias que uso e assuntos que estou aprendendo. Cada projeto é uma oportun
   <img src="https://raw.githubusercontent.com/luizhss18/luizhss18/main/assets/skills-dark.svg" width="100%" alt="Interfaces: HTML, CSS e JavaScript. Dados e lógica: Node.js, MySQL e SQLite. Ambiente: GitHub, redes e Windows.">
 </picture>
 
-<a id="projetos"></a>
 
 ### 03 / Ideias que viraram projetos
 
@@ -74,7 +71,6 @@ Escolha um card para abrir o código e acompanhar a evolução.
 
 <p align="center"><a href="https://github.com/luizhss18?tab=repositories">Explorar todos os repositórios ↗</a></p>
 
-<a id="arcade"></a>
 
 ### 04 / Dev Arcade
 
@@ -147,7 +143,6 @@ Você encontrou o laboratório. Por aqui, a próxima missão é transformar o qu
 
 </details>
 
-<a id="contato"></a>
 
 ### 05 / Vamos conectar ideias
 
