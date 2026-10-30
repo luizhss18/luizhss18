@@ -1,8 +1,8 @@
 <!-- LUIZ OS · assets originais em SVG · temas claro/escuro · sem rastreadores -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/luizhss18/luizhss18/main/assets/header-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/luizhss18/luizhss18/main/assets/header-light.svg">
-  <img src="https://raw.githubusercontent.com/luizhss18/luizhss18/main/assets/header-dark.svg" width="100%" alt="Luiz OS — Luiz Souza. Transformando curiosidade em código. Técnico em Informática no SENAC-MG.">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/luizhss18/luizhss18/main/assets/header-dark.svg?v=2">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/luizhss18/luizhss18/main/assets/header-light.svg?v=2">
+  <img src="https://raw.githubusercontent.com/luizhss18/luizhss18/main/assets/header-dark.svg?v=2" width="100%" alt="Luiz OS — Luiz Souza. Transformando curiosidade em código. Técnico em Informática no SENAC-MG.">
 </picture>
 
 <p align="center">
@@ -21,9 +21,9 @@ Sou **Luiz Souza**, estudante de **Técnico em Informática no SENAC-MG**, em Mi
 Gosto de tirar ideias do papel e aprender criando: de interfaces para restaurantes a catálogos de cinema, blogs e sistemas web.
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/luizhss18/luizhss18/main/assets/terminal-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/luizhss18/luizhss18/main/assets/terminal-light.svg">
-  <img src="https://raw.githubusercontent.com/luizhss18/luizhss18/main/assets/terminal-dark.svg" width="100%" alt="Terminal animado: minha missão é aprender desenvolvimento full stack, uma entrega por vez.">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/luizhss18/luizhss18/main/assets/terminal-dark.svg?v=2">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/luizhss18/luizhss18/main/assets/terminal-light.svg?v=2">
+  <img src="https://raw.githubusercontent.com/luizhss18/luizhss18/main/assets/terminal-dark.svg?v=2" width="100%" alt="Terminal animado: minha missão é aprender desenvolvimento full stack, uma entrega por vez.">
 </picture>
 
 
@@ -32,9 +32,9 @@ Gosto de tirar ideias do papel e aprender criando: de interfaces para restaurant
 Tecnologias que uso e assuntos que estou aprendendo. Cada projeto é uma oportunidade de conectar mais uma parte desse mapa.
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/luizhss18/luizhss18/main/assets/skills-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/luizhss18/luizhss18/main/assets/skills-light.svg">
-  <img src="https://raw.githubusercontent.com/luizhss18/luizhss18/main/assets/skills-dark.svg" width="100%" alt="Interfaces: HTML, CSS e JavaScript. Dados e lógica: Node.js, MySQL e SQLite. Ambiente: GitHub, redes e Windows.">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/luizhss18/luizhss18/main/assets/skills-dark.svg?v=2">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/luizhss18/luizhss18/main/assets/skills-light.svg?v=2">
+  <img src="https://raw.githubusercontent.com/luizhss18/luizhss18/main/assets/skills-dark.svg?v=2" width="100%" alt="Interfaces: HTML, CSS e JavaScript. Dados e lógica: Node.js, MySQL e SQLite. Ambiente: GitHub, redes e Windows.">
 </picture>
 
 
@@ -45,26 +45,26 @@ Escolha um card para abrir o código e acompanhar a evolução.
 <table>
 <tr>
 <td width="50%"><a href="https://github.com/luizhss18/SABOR-BRASA-FRONT"><picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/luizhss18/luizhss18/main/assets/project-brasa-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/luizhss18/luizhss18/main/assets/project-brasa-light.svg">
-  <img src="https://raw.githubusercontent.com/luizhss18/luizhss18/main/assets/project-brasa-dark.svg" width="100%" alt="Abrir Sabor Brasa — experiência web para restaurante, HTML e CSS.">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/luizhss18/luizhss18/main/assets/project-brasa-dark.svg?v=2">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/luizhss18/luizhss18/main/assets/project-brasa-light.svg?v=2">
+  <img src="https://raw.githubusercontent.com/luizhss18/luizhss18/main/assets/project-brasa-dark.svg?v=2" width="100%" alt="Abrir Sabor Brasa — experiência web para restaurante, HTML e CSS.">
 </picture></a></td>
 <td width="50%"><a href="https://github.com/luizhss18/CATALOGO_CINEMA_HTML_CSS"><picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/luizhss18/luizhss18/main/assets/project-cinema-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/luizhss18/luizhss18/main/assets/project-cinema-light.svg">
-  <img src="https://raw.githubusercontent.com/luizhss18/luizhss18/main/assets/project-cinema-dark.svg" width="100%" alt="Abrir Catálogo de Cinema — interface de filmes em HTML e CSS.">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/luizhss18/luizhss18/main/assets/project-cinema-dark.svg?v=2">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/luizhss18/luizhss18/main/assets/project-cinema-light.svg?v=2">
+  <img src="https://raw.githubusercontent.com/luizhss18/luizhss18/main/assets/project-cinema-dark.svg?v=2" width="100%" alt="Abrir Catálogo de Cinema — interface de filmes em HTML e CSS.">
 </picture></a></td>
 </tr>
 <tr>
 <td width="50%"><a href="https://github.com/luizhss18/WEB-BLOG-BASQUETE"><picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/luizhss18/luizhss18/main/assets/project-basquete-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/luizhss18/luizhss18/main/assets/project-basquete-light.svg">
-  <img src="https://raw.githubusercontent.com/luizhss18/luizhss18/main/assets/project-basquete-dark.svg" width="100%" alt="Abrir Blog de Basquete — conteúdo esportivo em formato de blog.">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/luizhss18/luizhss18/main/assets/project-basquete-dark.svg?v=2">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/luizhss18/luizhss18/main/assets/project-basquete-light.svg?v=2">
+  <img src="https://raw.githubusercontent.com/luizhss18/luizhss18/main/assets/project-basquete-dark.svg?v=2" width="100%" alt="Abrir Blog de Basquete — conteúdo esportivo em formato de blog.">
 </picture></a></td>
 <td width="50%"><a href="https://github.com/luizhss18/SISTEMA-DE-CADASTRO"><picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/luizhss18/luizhss18/main/assets/project-cadastro-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/luizhss18/luizhss18/main/assets/project-cadastro-light.svg">
-  <img src="https://raw.githubusercontent.com/luizhss18/luizhss18/main/assets/project-cadastro-dark.svg" width="100%" alt="Abrir Sistema de Cadastro — projeto de formulário web.">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/luizhss18/luizhss18/main/assets/project-cadastro-dark.svg?v=2">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/luizhss18/luizhss18/main/assets/project-cadastro-light.svg?v=2">
+  <img src="https://raw.githubusercontent.com/luizhss18/luizhss18/main/assets/project-cadastro-dark.svg?v=2" width="100%" alt="Abrir Sistema de Cadastro — projeto de formulário web.">
 </picture></a></td>
 </tr>
 </table>
@@ -77,17 +77,17 @@ Escolha um card para abrir o código e acompanhar a evolução.
 Meu calendário de contribuições ganhou outro universo. **Os blocos vêm da minha atividade pública no GitHub** e são atualizados todos os dias.
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/luizhss18/luizhss18/main/assets/dashboard-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/luizhss18/luizhss18/main/assets/dashboard-light.svg">
-  <img src="https://raw.githubusercontent.com/luizhss18/luizhss18/main/assets/dashboard-dark.svg" width="100%" alt="Estatísticas do calendário: contribuições, dias ativos, melhor sequência e recorde diário.">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/luizhss18/luizhss18/main/assets/dashboard-dark.svg?v=2">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/luizhss18/luizhss18/main/assets/dashboard-light.svg?v=2">
+  <img src="https://raw.githubusercontent.com/luizhss18/luizhss18/main/assets/dashboard-dark.svg?v=2" width="100%" alt="Estatísticas do calendário: contribuições, dias ativos, melhor sequência e recorde diário.">
 </picture>
 
 **PLAYER 01 — Commit Muncher**
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/luizhss18/luizhss18/main/assets/pacman-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/luizhss18/luizhss18/main/assets/pacman-light.svg">
-  <img src="https://raw.githubusercontent.com/luizhss18/luizhss18/main/assets/pacman-dark.svg" width="100%" alt="Animação inspirada em Pac-Man percorrendo meu calendário de contribuições.">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/luizhss18/luizhss18/main/assets/pacman-dark.svg?v=2">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/luizhss18/luizhss18/main/assets/pacman-light.svg?v=2">
+  <img src="https://raw.githubusercontent.com/luizhss18/luizhss18/main/assets/pacman-dark.svg?v=2" width="100%" alt="Animação inspirada em Pac-Man percorrendo meu calendário de contribuições.">
 </picture>
 
 <details>
@@ -95,9 +95,9 @@ Meu calendário de contribuições ganhou outro universo. **Os blocos vêm da mi
 <br>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/luizhss18/luizhss18/main/assets/snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/luizhss18/luizhss18/main/assets/snake-light.svg">
-  <img src="https://raw.githubusercontent.com/luizhss18/luizhss18/main/assets/snake-dark.svg" width="100%" alt="Uma cobra neon percorre o mesmo calendário de contribuições.">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/luizhss18/luizhss18/main/assets/snake-dark.svg?v=2">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/luizhss18/luizhss18/main/assets/snake-light.svg?v=2">
+  <img src="https://raw.githubusercontent.com/luizhss18/luizhss18/main/assets/snake-dark.svg?v=2" width="100%" alt="Uma cobra neon percorre o mesmo calendário de contribuições.">
 </picture>
 
 </details>
@@ -107,9 +107,9 @@ Meu calendário de contribuições ganhou outro universo. **Os blocos vêm da mi
 <br>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/luizhss18/luizhss18/main/assets/invaders-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/luizhss18/luizhss18/main/assets/invaders-light.svg">
-  <img src="https://raw.githubusercontent.com/luizhss18/luizhss18/main/assets/invaders-dark.svg" width="100%" alt="Nave e invasores espaciais animados sobre o meu calendário de contribuições.">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/luizhss18/luizhss18/main/assets/invaders-dark.svg?v=2">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/luizhss18/luizhss18/main/assets/invaders-light.svg?v=2">
+  <img src="https://raw.githubusercontent.com/luizhss18/luizhss18/main/assets/invaders-dark.svg?v=2" width="100%" alt="Nave e invasores espaciais animados sobre o meu calendário de contribuições.">
 </picture>
 
 </details>
@@ -119,9 +119,9 @@ Meu calendário de contribuições ganhou outro universo. **Os blocos vêm da mi
 <br>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/luizhss18/luizhss18/main/assets/city-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/luizhss18/luizhss18/main/assets/city-light.svg">
-  <img src="https://raw.githubusercontent.com/luizhss18/luizhss18/main/assets/city-dark.svg" width="100%" alt="Cidade isométrica: cada bloco representa um dia e a altura acompanha a intensidade das contribuições.">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/luizhss18/luizhss18/main/assets/city-dark.svg?v=2">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/luizhss18/luizhss18/main/assets/city-light.svg?v=2">
+  <img src="https://raw.githubusercontent.com/luizhss18/luizhss18/main/assets/city-dark.svg?v=2" width="100%" alt="Cidade isométrica: cada bloco representa um dia e a altura acompanha a intensidade das contribuições.">
 </picture>
 
 </details>
@@ -155,7 +155,7 @@ Você encontrou o laboratório. Por aqui, a próxima missão é transformar o qu
 </p>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/luizhss18/luizhss18/main/assets/footer-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/luizhss18/luizhss18/main/assets/footer-light.svg">
-  <img src="https://raw.githubusercontent.com/luizhss18/luizhss18/main/assets/footer-dark.svg" width="100%" alt="Build. Break. Learn. Repeat. O próximo projeto começa com uma boa ideia.">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/luizhss18/luizhss18/main/assets/footer-dark.svg?v=2">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/luizhss18/luizhss18/main/assets/footer-light.svg?v=2">
+  <img src="https://raw.githubusercontent.com/luizhss18/luizhss18/main/assets/footer-dark.svg?v=2" width="100%" alt="Build. Break. Learn. Repeat. O próximo projeto começa com uma boa ideia.">
 </picture>
