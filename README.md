@@ -139,8 +139,6 @@ Você encontrou o laboratório. Por aqui, a próxima missão é transformar o qu
 
 **Missões em andamento:** aprofundar JavaScript, conectar aplicações a bancos de dados e entender melhor as redes que sustentam a web.
 
-[Inspecionar os bastidores deste perfil](https://github.com/luizhss18/luizhss18/blob/main/PROFILE.md)
-
 </details>
 
 
